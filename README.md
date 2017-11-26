@@ -1,6 +1,9 @@
 # Rename script for images
+This script is useful if you want to merge images of two different devices into one single directory.
+Using this script you won't probably have filename conflicts. Plus: The filenames are sortable according to their date.
+
 ## Install exiftool
-### Mac OS X example:
+#### Mac OS X example:
 ```bash
 	cd /tmp && wget https://www.sno.phy.queensu.ca/~phil/exiftool/ExifTool-10.67.dmg && open `basename !$` && cd -
 ```
