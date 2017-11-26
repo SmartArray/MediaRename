@@ -1,6 +1,12 @@
 # Rename script for images
 This script is useful if you want to merge images of two different devices into one single directory.
-Using this script you won't probably have filename conflicts. Plus: The filenames are sortable according to their date.
+Using this script you won't probably have filename conflicts. Plus: The filenames are sortable according to their dates.
+
+Example: 
+./IMG_3128.JPG -> ./20171109_032037.JPG
+
+Note:
+20171109_032037 is the exif recording date of the picture. 
 
 ## Install exiftool
 #### Mac OS X example:
